@@ -1,2 +1,5 @@
 #!/usr/bin/env node;
-"Welcome to the Brain Games!";
+import readlineSync from 'readline-sync';
+import { startGame } from '..';
+
+startGame(false, false);

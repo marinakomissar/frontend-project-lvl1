@@ -1,6 +1,7 @@
-node bin/brain-games.js
+brain-games:
+	node bin/brain-games.js	
 
-install: npm install
+install: npm-install
 
 run:
 	bin/nodejs-package.js 10
